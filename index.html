@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band</title>
+    <link rel="icon" type="image/x-icon" href="https://fullstack.edu.vn/favicon/apple-touch-icon.png">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <!--Begin Header-->
+        <div id="header">
+            <!-- menu -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Search Button-->
+            <div class="Search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+
+            <div id="mobile-menu" hidden class="mobile-menu-btn">
+                <i class="ti-menu menu-icon"></i>
+            </div>
+        </div>
+        <!--End Header-->
+
+        <!--Begin Slider-->
+        <div id="slider">
+            <img style="width: 100%; height: auto;" src="./assets/image/911band.jpg" alt="">
+            <div class="text-content">
+                <h2 class="text-heading">Chicago</h2>
+                <div class="text-description">The atmosphere in NewYork is bad!</div>
+            </div>
+        </div>
+        <!--End Slider-->
+
+        <!--Begin Content-->
+        <div id="content">
+            <!--About section-->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <div class="section-subheading">We love music</div>
+                <div class="about-text">
+                    
+Founded in the vibrant music scene of the early 2000s, 911 Band has carved a niche for themselves with their distinctive sound and electrifying performances. Hailing from diverse musical backgrounds, the band members infuse their collective experiences into their music, resulting in a fusion of rock, funk, and soul that captivates audiences worldwide. With their infectious energy and dynamic stage presence, 911 Band delivers an unforgettable live experience, drawing listeners into their sonic universe with every chord and beat. From intimate venues to festival stages, their music resonates with fans of all ages, transcending boundaries and leaving an indelible mark on the hearts of music lovers everywhere. Dive into the sonic landscape of 911 Band and embark on a journey through rhythm, melody, and soulful expression like no other.
+                </div>
+                <div class="row member-list">
+                    <div class="col col-third s-col-full mt-32 text-center member-item">
+                        <p class="member-name">Spike Dawbarn</p>
+                        <img src="./assets/image/spike.jpg" alt="Spike Dawbarn" class="member-img">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center member-item">
+                        <p class="member-name">Lee Brennan</p>
+                        <img src="./assets/image/lee.jpg" alt="Lee Brennan" class="member-img">
+                    </div>
+                    <div class="col col-third s-col-full mt-32 text-center member-item">
+                        <p class="member-name">Jimmy Constable</p>
+                        <img src="./assets/image/jimmy.jpg" alt="Jimmy Constable" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+            <!--Tour section-->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATE</h2>
+                    <div class="section-subheading text-white">Remember to book your tickets</div>
+                    
+                    <!--Tickets-->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <!--Places-->
+                    <div class="row places-list">
+                        <div class="col col-third s-col-ful mt-16 place-item">
+                            <img src="./assets/image/newyork.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2024</p>
+                                <p class="place-desc">"Get ready, New York!</p>
+                                <button class="js-buy-ticket btn s-ful-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-ful mt-16 place-item">
+                            <img src="./assets/image/paris.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2024</p>
+                                <p class="place-desc">"Bonjour, Paris!</p>
+                                <button class="js-buy-ticket btn s-ful-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third s-col-ful mt-16 place-item">
+                            <img src="./assets/image/sanfran.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2024</p>
+                                <p class="place-desc">"Hey San Francisco!</p>
+                                <button class="js-buy-ticket btn s-ful-width">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact section-->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-subheading">Fan?Drop a note</p>
+                <div class="row contact-content">
+                    <div class="col col-half s-col-ful contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+                    </div>
+                    <div class="col col-half s-col-ful contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half s-col-ful">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-ful s-mt-8 ">
+                                    <input type="email" name="" placeholder="Email" id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Massage" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn mt-16 pull-right s-ful-width"type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map-section">
+                <img src="./assets/image/map.jpg" alt="">
+            </div>
+        </div>
+        <!--End Content-->
+
+        <!--Begin footer-->
+        <div id="footer" class="text-center">
+            <div class="social-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+            </div>
+            <p class="copy-right">Powered by <a href="">W3.CSS</a></p>
+        </div>
+        <!--End footer-->
+    </div>
+
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class = "modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="" class="modal-lable">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" placeholder="How many?">
+
+                <label for="" class="modal-lable">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input type="email" class="modal-input" placeholder="Enter email?">
+            
+                <button id="buy-ticket">
+                    <i class="ti-check"></i>
+                    Pay
+                </button>
+            </div>
+
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="help?">help?</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+
+        function hideBuyTickets() {
+            modal.classList.remove('open')
+        }
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets);
+        }
+
+        modalClose.addEventListener('click', hideBuyTickets) 
+    
+        modal.addEventListener('click', hideBuyTickets)
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        mobileMenu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+            if (isClose) {
+                header.style.height = 'auto';
+            }else {
+                header.style.height = null;
+            }
+        }
+
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function() {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu) {
+                    header.style.height = null;
+                } else {
+                    event.preventDefault();
+                }
+            }
+        }
+    </script>
+</body>
+</html>
